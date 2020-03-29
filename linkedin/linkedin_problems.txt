@@ -1,0 +1,104 @@
+Last login: Fri Mar 27 16:38:53 on ttys007
+kumarrg@C02VQ1SYHTDD ~ % cd pythonTest 
+kumarrg@C02VQ1SYHTDD pythonTest % cd linkedin/TREE 
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py 
+1
+2
+2
+[3, [3, 3], [20, 20]]
+[3, [3, 3], [20, 20]]
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+  File "level_order_traversal.py", line 63
+    def levelOrder(self, start):
+                               ^
+IndentationError: unindent does not match any outer indentation level
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+1
+2
+2
+[3, [3, 3], [20, 20]]
+[3, [3, 3], [20, 20]]
+kumarrg@C02VQ1SYHTDD TREE % python ../../binary_tree_level.py 
+[(3, 0), ([9, 20], 1), ([15, 7], 2)]
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py  
+Traceback (most recent call last):
+  File "level_order_traversal.py", line 94, in <module>
+    tree.root.left = TreeNode(9)
+NameError: name 'TreeNode' is not defined
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+[(3, 0), ([9, 20], 1), ([15, 7], 2)]
+[(3, 0), ([9, 20], 1), ([15, 7], 2)]
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+[(3, 0), ([9, 20], 1), ([15, 7], 2)]
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+1
+2
+2
+[3, [3, 3], [20, 20]]
+[3, [3, 3], [20, 20]]
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+1
+2
+2
+[3, [9, 20], [15, 7]]
+[3, [9, 20], [15, 7]]
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+[3, [9, 20], [15, 7]]
+[3, [9, 20], [15, 7]]
+kumarrg@C02VQ1SYHTDD TREE % python level_order_traversal.py
+[(3, 0), ([9, 20], 1), ([15, 7], 2)]
+kumarrg@C02VQ1SYHTDD TREE % vi ../../amazon/array_mul.py
+kumarrg@C02VQ1SYHTDD TREE % vi ../linkedin_problems.txt 
+
+
+
+
+
+        #       Title   Solution        Acceptance      Difficulty      Frequency
+        339
+Nested List Weight Sum
+                71.9%   Easy
+        243
+Shortest Word Distance
+                60.0%   Easy
+        13
+Roman to Integer
+                54.7%   Easy
+        256
+Paint House
+                51.3%   Easy
+        235
+Lowest Common Ancestor of a Binary Search Tree
+                48.2%   Easy
+        53
+Maximum Subarray
+                45.8%   Easy
+        101
+Symmetric Tree
+                45.7%   Easy
+        671
+Second Minimum Node In a Binary Tree
+                43.0%   Easy
+        716
+Max Stack
+                42.1%   Easy
+        88
+Merge Sorted Array
+                38.2%   Easy
+        20
+Valid Parentheses
+                38.1%   Easy
+        605
+Can Place Flowers
+                31.6%   Easy
+        366
+Find Leaves of Binary Tree
+                69.4%   Medium
+        739
+Daily Temperatures
+                62.0%   Medium
+        364
+Nested List Weight Sum II
+                61.3%   Medium
+        156
+"../linkedin_problems.txt" 112L, 1886C
