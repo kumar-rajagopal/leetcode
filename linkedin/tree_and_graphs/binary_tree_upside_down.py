@@ -139,3 +139,17 @@ class Solution:
             old_right_sibling = _right_child                        
         
         return old_left_leaf
+
+#For the below solution: Complexity: O(N) time and O(1) space, where N is the number of nodes in the input tree.
+class Solution:
+    def upsideDownBinaryTree(self, root: TreeNode) -> TreeNode:
+		# start from root
+        cur, pre, preRight = root, None, None
+        while cur:
+			# temporarily store 'cur.left' and 'cur.right' ('cur.left' will be next 'cur')
+            temp1, temp2 = cur.left, cur.right
+			# modify parent-child links
+            cur.left, cur.right = preRight, pre
+			# go to next iteration
+            cur, pre, preRight = temp1, cur, temp2
+        return pre
