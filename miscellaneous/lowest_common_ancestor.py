@@ -29,6 +29,13 @@ Note:
 All of the nodes' values will be unique.
 p and q are different and both values will exist in the binary tree.
 
+
+Complexity Analysis
+
+    Time Complexity : O(N)O(N)O(N), where NNN is the number of nodes in the binary tree. In the worst case we might be visiting all the nodes of the binary tree. The advantage of this approach is that we can prune backtracking. We simply return once both the nodes are found.
+
+    Space Complexity : O(N)O(N)O(N). In the worst case the space utilized by stack would be NNN since the height of a skewed binary tree could be NNN.
+
 """
 class Node:
     def __init__(self, val):
