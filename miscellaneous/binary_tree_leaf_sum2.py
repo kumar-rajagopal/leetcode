@@ -36,7 +36,7 @@ def leftLeavesSum(root):
             # Else recur for left child of root
             res += leftLeavesSum(root.left)
  
-        # Recur for right child of root and update res
+        # Recur for right child of root and update res. This will fetch all left leaves in root.right tree
         res += leftLeavesSum(root.right)
     return res
  
