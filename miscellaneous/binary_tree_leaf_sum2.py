@@ -29,7 +29,8 @@ def leftLeavesSum(root):
         # If left of root is None, then add key of
         # left child
         
-        if isLeaf(root.left): #This will be current root node without recur
+        if isLeaf(root.left): #This will be current root node without recur as we need to find the sum of all leaft leaves,
+                              #identify the first left leaf and then the else condition will do the recursion
             res += root.left.key
         else:
             # Else recur for left child of root
